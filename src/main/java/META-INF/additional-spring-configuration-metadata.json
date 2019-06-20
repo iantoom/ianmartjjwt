@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "jwt.header",
+    "type": "java.lang.String",
+    "description": "A key for http header to store JWT access Token"
+  },
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "A symmetrical key secret to validate and signing JWT token"
+  },
+  {
+    "name": "jwt.expiration",
+    "type": "java.lang.String",
+    "description": "A time in millisecond before token expired and need to reauthenticated"
+  }
+]}
